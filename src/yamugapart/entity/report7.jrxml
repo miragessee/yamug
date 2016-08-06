@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="report1" language="groovy" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="e374d495-14d8-4b19-9459-395041916cf1">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<queryString language="SQL">
+		<![CDATA[select * from Apart]]>
+	</queryString>
+	<field name="Apart_ID" class="java.lang.Integer">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="Apart_Adi" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="Apart_Adres" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="Apart_Temizlik" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="Apart_Ariza" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="Apart_Onarim" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<group name="Apart_Adi">
+		<groupExpression><![CDATA[$F{Apart_Adi}]]></groupExpression>
+	</group>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="4" splitType="Stretch"/>
+	</title>
+	<pageHeader>
+		<band height="95" splitType="Stretch">
+			<textField pattern="dd/MM/yyyy">
+				<reportElement x="487" y="69" width="100" height="20" uuid="778caefd-c741-4305-ad3f-0502f5909324"/>
+				<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+			</textField>
+			<image>
+				<reportElement x="0" y="0" width="552" height="51" uuid="41e63b9b-81de-4044-9767-6db6df62b2b2"/>
+				<imageExpression><![CDATA["D:\\raporalmav3.jpg"]]></imageExpression>
+			</image>
+		</band>
+	</pageHeader>
+	<columnHeader>
+		<band height="61" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="0" width="92" height="20" uuid="1e940d39-1591-482f-9b5e-be3c4854cbd7"/>
+				<text><![CDATA[Apart_ID]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="92" y="0" width="92" height="20" forecolor="#990000" uuid="0fdbaa22-45fa-4521-92ad-06e7d9b9cb4f"/>
+				<text><![CDATA[Apart_Adi]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="184" y="0" width="92" height="20" uuid="800411c5-7b1d-48b2-8148-daaa21246192"/>
+				<text><![CDATA[Apart_Adres]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="276" y="0" width="92" height="20" uuid="1bacb34b-fec7-45c5-8e6b-9dd739d3a81a"/>
+				<text><![CDATA[Apart_Temizlik]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="368" y="0" width="92" height="20" uuid="e39f2ea4-189f-43be-a8bc-80ef7def0b3d"/>
+				<text><![CDATA[Apart_Ariza]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="460" y="0" width="92" height="20" uuid="ae290c7f-9728-4034-8e49-511e13486446"/>
+				<text><![CDATA[Apart_Onarim]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="125" splitType="Stretch">
+			<textField>
+				<reportElement x="0" y="0" width="92" height="20" uuid="0911c56d-5f22-4799-b9af-64ddeecaf9a0"/>
+				<textFieldExpression><![CDATA[$F{Apart_ID}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="92" y="0" width="92" height="20" forecolor="#990000" uuid="393818c8-dc36-4955-858b-45d5d4838731"/>
+				<textFieldExpression><![CDATA[$F{Apart_Adi}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="184" y="0" width="92" height="20" uuid="1109d385-56bd-46cd-8bae-f987ba5ffdee"/>
+				<textFieldExpression><![CDATA[$F{Apart_Adres}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="276" y="0" width="92" height="20" uuid="09a7daf1-6fdf-4d67-8926-b07b5cc13d30"/>
+				<textFieldExpression><![CDATA[$F{Apart_Temizlik}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="368" y="0" width="92" height="20" uuid="4c3e6556-caa4-4c8e-9d28-eeb22c5d1539"/>
+				<textFieldExpression><![CDATA[$F{Apart_Ariza}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="460" y="0" width="92" height="20" uuid="8ccc4e03-2f96-483d-bd03-0d43829bcf3d"/>
+				<textFieldExpression><![CDATA[$F{Apart_Onarim}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="45" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch">
+			<textField>
+				<reportElement x="340" y="34" width="80" height="20" uuid="fff10595-3a4c-4e96-8d37-fd97ad0eda61"/>
+				<textElement textAlignment="Right"/>
+				<textFieldExpression><![CDATA["Page "+$V{PAGE_NUMBER}+" of"]]></textFieldExpression>
+			</textField>
+			<textField evaluationTime="Report">
+				<reportElement x="420" y="34" width="40" height="20" uuid="68b8d365-9e13-44fb-9acf-42425121e6d3"/>
+				<textFieldExpression><![CDATA[" " + $V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="475" y="34" width="112" height="20" uuid="73263dc9-8dd3-491a-ac16-e31a40fc25dc"/>
+				<textFieldExpression><![CDATA[$V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 24.Ara.2014 13:47:28 by Hibernate Tools 3.6.0 -->
+<hibernate-mapping>
+  <class catalog="yamugapart" name="yamugapart.entity.Dlist" table="dlist">
+    <id name="dlistId" type="java.lang.Integer">
+      <column name="Dlist_ID"/>
+      <generator class="identity"/>
+    </id>
+    <property name="dlistTuru" type="string">
+      <column length="45" name="Dlist_Turu"/>
+    </property>
+    <property name="dlistMarka" type="string">
+      <column length="45" name="Dlist_Marka"/>
+    </property>
+    <property name="dlistAdet" type="string">
+      <column length="45" name="Dlist_Adet"/>
+    </property>
+    <property name="dlistApartId" type="int">
+      <column name="Dlist_Apart_ID" not-null="true"/>
+    </property>
+  </class>
+</hibernate-mapping>

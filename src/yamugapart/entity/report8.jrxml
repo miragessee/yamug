@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="report2" language="groovy" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="edf1412d-428d-4769-b1e1-71373e54b160">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<queryString language="SQL">
+		<![CDATA[select * from Musteri where Musteri_Apart_ID in (select Apart_ID from Apart)]]>
+	</queryString>
+	<field name="Musteri_ID" class="java.lang.Integer">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="Musteri_Adi" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="Musteri_Soyadi" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="Musteri_Tel" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="Musteri_Email" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="Musteri_Kira_Tarihi" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="Musteri_Apart_ID" class="java.lang.Integer">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="Musteri_Oda_NO" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="Musteri_Dogalgaz" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="Musteri_Su" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="Musteri_Internet" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="Musteri_Elektrik" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<group name="Musteri_Apart_ID">
+		<groupExpression><![CDATA[$F{Musteri_Apart_ID}]]></groupExpression>
+	</group>
+	<group name="Musteri_Tel">
+		<groupExpression><![CDATA[$F{Musteri_Tel}]]></groupExpression>
+	</group>
+	<group name="Musteri_Oda_NO">
+		<groupExpression><![CDATA[$F{Musteri_Oda_NO}]]></groupExpression>
+	</group>
+	<group name="Musteri_Kira_Tarihi">
+		<groupExpression><![CDATA[$F{Musteri_Kira_Tarihi}]]></groupExpression>
+	</group>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="6" splitType="Stretch"/>
+	</title>
+	<pageHeader>
+		<band height="85" splitType="Stretch">
+			<textField pattern="dd/MM/yyyy">
+				<reportElement x="487" y="60" width="100" height="20" uuid="8f426bd9-14ce-44db-9f62-901ef928c855"/>
+				<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+			</textField>
+			<image>
+				<reportElement x="0" y="0" width="555" height="50" uuid="45f50b33-8973-4e7f-a131-ccd6e5b8c41a"/>
+				<imageExpression><![CDATA["D:\\raporalmav3.jpg"]]></imageExpression>
+			</image>
+		</band>
+	</pageHeader>
+	<columnHeader>
+		<band height="61" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="0" width="21" height="20" uuid="e9a177bf-a270-4481-bab1-5cf7dcbc4b68"/>
+				<text><![CDATA[ID]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="21" y="0" width="29" height="20" forecolor="#990000" uuid="c7c6c938-9047-44b0-be3b-68d1a874628c"/>
+				<text><![CDATA[Adi]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="62" y="0" width="46" height="20" forecolor="#006600" uuid="d16e9e6c-4054-49b4-9de4-12105c47285d"/>
+				<text><![CDATA[Soyadi]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="108" y="0" width="46" height="20" forecolor="#000099" uuid="d54b624f-d327-4ac8-a202-b8ebbbc1c7c6"/>
+				<text><![CDATA[Tel]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="171" y="0" width="46" height="20" uuid="8f88fb97-d82a-4acd-990c-c938a27c8bd0"/>
+				<text><![CDATA[Email]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="230" y="0" width="69" height="20" uuid="2b9fc2d1-b931-4ecc-b086-83b967150330"/>
+				<text><![CDATA[Kira_Tarihi]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="299" y="0" width="46" height="20" uuid="90e67695-57ba-4f32-ac6e-831326632ce8"/>
+				<text><![CDATA[Apart_ID]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="345" y="0" width="46" height="20" uuid="fff2d7ab-6404-46a5-a053-799b15abb05f"/>
+				<text><![CDATA[Oda_NO]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="391" y="0" width="46" height="20" uuid="1b08409c-b858-4093-be55-9cbcb7307348"/>
+				<text><![CDATA[Dogalgaz]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="447" y="0" width="28" height="20" uuid="f2c53883-6409-4c7a-aed2-cb2227f97f21"/>
+				<text><![CDATA[Su]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="475" y="0" width="46" height="20" uuid="74951e32-3ab8-4f75-a5ee-b19f165328ca"/>
+				<text><![CDATA[Internet]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="521" y="0" width="34" height="20" uuid="1affab4c-d2ed-44c4-b2c5-d7aba85a03a9"/>
+				<text><![CDATA[Elektrik]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="125" splitType="Stretch">
+			<textField>
+				<reportElement x="0" y="0" width="11" height="20" uuid="55008137-a8bf-4862-a9d7-facee7513e69"/>
+				<textFieldExpression><![CDATA[$F{Musteri_ID}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="21" y="0" width="29" height="20" forecolor="#990000" uuid="41d21c7b-bc28-4a9c-b520-a30c732bf54e"/>
+				<textFieldExpression><![CDATA[$F{Musteri_Adi}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="62" y="0" width="46" height="20" forecolor="#006600" uuid="6286182b-a8d6-492b-9fb1-5c29be0a8fee"/>
+				<textFieldExpression><![CDATA[$F{Musteri_Soyadi}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="112" y="0" width="59" height="20" forecolor="#000099" uuid="927725bb-dac9-4467-9de8-2cae92302ff0"/>
+				<textFieldExpression><![CDATA[$F{Musteri_Tel}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="171" y="0" width="72" height="20" uuid="d39b66b3-5e7e-4d57-9ad1-aabe23fc4a6f"/>
+				<textFieldExpression><![CDATA[$F{Musteri_Email}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="243" y="0" width="69" height="20" uuid="995b82b4-dd02-4a58-a65a-8cd6aedca3da"/>
+				<textFieldExpression><![CDATA[$F{Musteri_Kira_Tarihi}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="312" y="0" width="33" height="20" uuid="8fd9254d-c731-468a-82a2-88686089e0fe"/>
+				<textFieldExpression><![CDATA[$F{Musteri_Apart_ID}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="357" y="0" width="34" height="20" uuid="67b7155a-05f2-4918-9146-cc42989906cd"/>
+				<textFieldExpression><![CDATA[$F{Musteri_Oda_NO}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="415" y="0" width="22" height="20" uuid="3f61e3e7-af09-4e01-9d1a-357aceb28d8e"/>
+				<textFieldExpression><![CDATA[$F{Musteri_Dogalgaz}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="447" y="0" width="28" height="20" uuid="834fc8af-a372-4702-bb77-a921c513b515"/>
+				<textFieldExpression><![CDATA[$F{Musteri_Su}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="487" y="0" width="21" height="20" uuid="a890e7de-188e-4eb3-8bb3-f79fd6a246d4"/>
+				<textFieldExpression><![CDATA[$F{Musteri_Internet}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="521" y="0" width="23" height="20" uuid="943108a3-4dbc-4c38-aa5f-aa5e12d9ce68"/>
+				<textFieldExpression><![CDATA[$F{Musteri_Elektrik}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="45" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch">
+			<textField>
+				<reportElement x="511" y="34" width="100" height="20" uuid="7d466c2b-d999-4b6b-867d-f1c0bebd8ae9"/>
+				<textFieldExpression><![CDATA[$V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="391" y="34" width="80" height="20" uuid="649d1521-9a8f-430c-abe5-0f11ea447ec3"/>
+				<textElement textAlignment="Right"/>
+				<textFieldExpression><![CDATA["Page "+$V{PAGE_NUMBER}+" of"]]></textFieldExpression>
+			</textField>
+			<textField evaluationTime="Report">
+				<reportElement x="471" y="34" width="40" height="20" uuid="05932bee-273a-4ff4-b7d7-3bba0c985101"/>
+				<textFieldExpression><![CDATA[" " + $V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>

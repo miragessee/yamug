@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 24.Ara.2014 13:47:28 by Hibernate Tools 3.6.0 -->
+<hibernate-mapping>
+    <class name="yamugapart.entity.Apart" table="apart" catalog="yamugapart">
+        <id name="apartId" type="java.lang.Integer">
+            <column name="Apart_ID" />
+            <generator class="identity" />
+        </id>
+        <property name="apartAdi" type="string">
+            <column name="Apart_Adi" length="45" />
+        </property>
+        <property name="apartAdres" type="string">
+            <column name="Apart_Adres" />
+        </property>
+        <property name="apartTemizlik" type="string">
+            <column name="Apart_Temizlik" length="45" />
+        </property>
+        <property name="apartAriza" type="string">
+            <column name="Apart_Ariza" />
+        </property>
+        <property name="apartOnarim" type="string">
+            <column name="Apart_Onarim" length="45" />
+        </property>
+    </class>
+</hibernate-mapping>

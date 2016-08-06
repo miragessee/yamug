@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 24.Ara.2014 13:47:28 by Hibernate Tools 3.6.0 -->
+<hibernate-mapping>
+    <class name="yamugapart.entity.Musteri" table="musteri" catalog="yamugapart">
+        <id name="musteriId" type="java.lang.Integer">
+            <column name="Musteri_ID" />
+            <generator class="identity" />
+        </id>
+        <property name="musteriAdi" type="string">
+            <column name="Musteri_Adi" length="45" />
+        </property>
+        <property name="musteriSoyadi" type="string">
+            <column name="Musteri_Soyadi" length="45" />
+        </property>
+        <property name="musteriTel" type="string">
+            <column name="Musteri_Tel" length="45" not-null="true" />
+        </property>
+        <property name="musteriEmail" type="string">
+            <column name="Musteri_Email" length="45" />
+        </property>
+        <property name="musteriKiraTarihi" type="string">
+            <column name="Musteri_Kira_Tarihi" length="45" />
+        </property>
+        <property name="musteriApartId" type="int">
+            <column name="Musteri_Apart_ID" not-null="true" />
+        </property>
+        <property name="musteriOdaNo" type="string">
+            <column name="Musteri_Oda_NO" length="45" />
+        </property>
+        <property name="musteriDogalgaz" type="string">
+            <column name="Musteri_Dogalgaz" length="45" />
+        </property>
+        <property name="musteriSu" type="string">
+            <column name="Musteri_Su" length="45" />
+        </property>
+        <property name="musteriInternet" type="string">
+            <column name="Musteri_Internet" length="45" />
+        </property>
+        <property name="musteriElektrik" type="string">
+            <column name="Musteri_Elektrik" length="45" />
+        </property>
+    </class>
+</hibernate-mapping>
