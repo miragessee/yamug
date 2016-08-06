@@ -1,3 +1,3 @@
 #** Proje Planı **#
 
-![projeplaniyamug.png](https://bitbucket.org/repo/7rBGpr/images/2018999876-projeplaniyamug.png)
+![projeplaniyamug.png](https://github.com/miragessee/yamug/blob/master/wikiresimler/2018999876-projeplaniyamug.png)

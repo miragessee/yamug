@@ -1,3 +1,3 @@
 # **Sınıf Diyagramı** #
 
-![sinifdiyagrami.jpg](https://bitbucket.org/repo/7rBGpr/images/266762613-sinifdiyagrami.jpg)
+![sinifdiyagrami.jpg](https://github.com/miragessee/yamug/blob/master/wikiresimler/266762613-sinifdiyagrami.jpg)

@@ -1,3 +1,3 @@
 # **Durum Diyagramı** #
 
-![durumdiyagramison.jpg](https://bitbucket.org/repo/7rBGpr/images/1372774156-durumdiyagramison.jpg)
+![durumdiyagramison.jpg](https://github.com/miragessee/yamug/blob/master/wikiresimler/1372774156-durumdiyagramison.jpg)

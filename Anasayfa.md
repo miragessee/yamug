@@ -8,7 +8,7 @@
 
 ##2.1) Sistem Mimari Diyagramı##
 
-![213.jpg](https://bitbucket.org/repo/7rBGpr/images/3694345135-213.jpg)
+![213.jpg](https://github.com/miragessee/yamug/blob/master/wikiresimler/3694345135-213.jpg)
 
 ##2.2) Ürün Özellikleri##
 
