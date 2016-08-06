@@ -1,1 +1,1 @@
-# yamug
+# yamug (yazılım mühendisleri grubu) Süleyman Demirel Bilgisayar Mühendisliği Bölümünün Yazılım Mühendisliği Dersinin Ödevi
