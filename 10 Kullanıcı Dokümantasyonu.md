@@ -2,13 +2,13 @@
 # Kullanıcı Dökümantasyonu #
 ## 1)Apart İşlemleri ##
 ### 1.1) Apart Bilgilerini Görüntüle ###
-![11.jpg](https://github.com/miragessee/yamug/blob/master/wikiresimler/images/3960600952-11.jpg)
+![11.jpg](https://github.com/miragessee/yamug/blob/master/wikiresimler/3960600952-11.jpg)
 
 * Bu kısımda tüm apartların temel bilgileri tabloda görüntülenir.
 
 
 ### 1.2) Yeni Apart Ekle ###
-![image003.png](https://github.com/miragessee/yamug/blob/master/wikiresimler/images/2466630757-image003.png)
+![image003.png](https://github.com/miragessee/yamug/blob/master/wikiresimler/2466630757-image003.png)
 
 * " Yenile" butonu apartları yeniden listeler. Seçilen apartın özellikleri sağ tarafta güncellenir.
 * " Ekle " butonu yukarıda girilen veriler ile yeni apart ekler.
@@ -17,7 +17,7 @@
 
 
 ### 1.3) Demirbaş Listesi ###
-![13.png](https://github.com/miragessee/yamug/blob/master/wikiresimler/images/3097133566-13.png)
+![13.png](https://github.com/miragessee/yamug/blob/master/wikiresimler/3097133566-13.png)
 
 * " Yenile" butonu apartları yeniden listeler. 
 * Seçilen apartın listesi sağ tarafta güncellenir.
@@ -27,7 +27,7 @@
 
 
 ### 1.4) Temizlik Durumu ###
-![14.jpg](https://github.com/miragessee/yamug/blob/master/wikiresimler/images/148244108-14.jpg)
+![14.jpg](https://github.com/miragessee/yamug/blob/master/wikiresimler/148244108-14.jpg)
 
 * " Yenile" butonu apartları yeniden listeler. 
 * Seçilen apartın temizlik durumu sağ tarafta güncellenir.
@@ -35,7 +35,7 @@
 
 
 ### 1.5) Apart Arıza Durumu ###
-![15.jpg](https://github.com/miragessee/yamug/blob/master/wikiresimler/images/2713141488-15.jpg)
+![15.jpg](https://github.com/miragessee/yamug/blob/master/wikiresimler/2713141488-15.jpg)
 
 * " Yenile" butonu apartları yeniden listeler. 
 * Seçilen apartın arıza durumu sağ tarafta güncellenir.
@@ -46,20 +46,20 @@
 
 ## 2)Müşteri İşlemleri ##
 ### 2.1) Yeni Müşteri Ekle ###
-![21.png](https://github.com/miragessee/yamug/blob/master/wikiresimler/images/370796560-21.png)
+![21.png](https://github.com/miragessee/yamug/blob/master/wikiresimler/370796560-21.png)
 
 * " Yenile" butonu apartları yeniden listeler. 
 * Müşteri ekleme kısmında gerekli bilgiler girilerek müşteri eklenebilir.
 
 
 ### 2.2) Müşteri Silme/Güncelleme ###
-![22.png](https://github.com/miragessee/yamug/blob/master/wikiresimler/images/386264791-22.png)
+![22.png](https://github.com/miragessee/yamug/blob/master/wikiresimler/386264791-22.png)
 
 * Müşterileri isim/soyisim/numaraya göre müşteri bulunup seçilen müşterinin bilgilerinin güncellemesi yapılabilen bölümdür.
 
 
 ### 2.3) Müşteri Bilgilerini Görüntüle ###
-![23.png](https://github.com/miragessee/yamug/blob/master/wikiresimler/images/2530745816-23.png)
+![23.png](https://github.com/miragessee/yamug/blob/master/wikiresimler/2530745816-23.png)
 
 * " Yenile" butonu apartları yeniden listeler.  Tüm apart müşterilerini görüntüler.
 
@@ -67,31 +67,31 @@
 ### 2.4) Giderler ###
 
 ### 2.4.1) Giderleri Görüntüle ###
-![241.png](https://github.com/miragessee/yamug/blob/master/wikiresimler/images/1971414782-241.png)
+![241.png](https://github.com/miragessee/yamug/blob/master/wikiresimler/1971414782-241.png)
 
 * " Yenile" butonu apartları yeniden listeler. 
 * Bu bölüm sol tarafta seçilen apartta bulunan müşterilerin giderlerini isteğe göre görüntüler.
 
 
 ### 2.4.2) Gider Ekle/Düzenle ###
-![242.png](https://github.com/miragessee/yamug/blob/master/wikiresimler/images/3619625315-242.png)
+![242.png](https://github.com/miragessee/yamug/blob/master/wikiresimler/3619625315-242.png)
 
 * Müşterileri isim/soyisim/numaraya göre bulup gider güncellemesi yapılabilen bölümdür.
 
 ## 2.5) Müşteri Bilgilendirme ##
-![musteribilgi2_3.jpg](https://github.com/miragessee/yamug/blob/master/wikiresimler/images/328100674-musteribilgi2_3.jpg)
+![musteribilgi2_3.jpg](https://github.com/miragessee/yamug/blob/master/wikiresimler/328100674-musteribilgi2_3.jpg)
  
 "Gönder" butonuna tıklandığında müşterilere belirtilen konu ve içerik ile mail gönderir.
 Mailler yamug@yamugapart.com  adresinden gönderilir.
 
 ## 3)	Rapor İşlemleri ##
-![rapor2_3.jpg](https://github.com/miragessee/yamug/blob/master/wikiresimler/images/457396744-rapor2_3.jpg)
+![rapor2_3.jpg](https://github.com/miragessee/yamug/blob/master/wikiresimler/457396744-rapor2_3.jpg)
 
 * Bu bölüm apart raporu ve müşteri raporu alma işlemleri için kullanılır.
 
 
 ## 4)	Mail Gönder ##
-![4.png](https://github.com/miragessee/yamug/blob/master/wikiresimler/images/712981374-4.png)
+![4.png](https://github.com/miragessee/yamug/blob/master/wikiresimler/712981374-4.png)
 
 * " Yenile" butonu apartları yeniden listeler. 
 * Bu bölüm kontrat bitim süresine 1 ve 2 gün kalan müşterilere mail atmak için kullanılır. yamugapart@gmail.com adresimizden otomatik oluşturulmuş bir mail müşterilerin email adreslerine gönderilir.
