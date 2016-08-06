@@ -1,6 +1,6 @@
 # 2.1) Sistem Mimari Diyagramı #
 
-![3694345135-213.jpg](https://bitbucket.org/repo/7rBGpr/images/1714809854-3694345135-213.jpg)
+![3694345135-213.jpg](https://github.com/miragessee/yamug/blob/master/wikiresimler/1714809854-3694345135-213.jpg)
 
 # 2.2) Ürün Özellikleri #
 
